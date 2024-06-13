@@ -1,0 +1,12 @@
+services:
+  springboot:
+    build: .
+    image: eureka-discovery
+    container_name: eureka-discovery
+    ports:
+      - "8761:8761"
+
+networks:
+  default:
+    external:
+      name: funfit
