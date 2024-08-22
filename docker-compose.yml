@@ -1,8 +1,8 @@
 services:
   springboot:
     build: .
-    image: eureka-discovery
-    container_name: eureka-discovery
+    image: discovery
+    container_name: discovery
     ports:
       - "8761:8761"
 
